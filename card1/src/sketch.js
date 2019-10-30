@@ -357,125 +357,6 @@ Boid.prototype.borders = function() {
 
 
 
-/*
-
-let flock;
-
-function setup() {
-  createCanvas(640, 360);
-  createP("Drag the mouse to generate new boids.");
-
-  flock = new Flock();
-  // Add an initial set of boids into the system
-  for (let i = 0; i < 100; i++) {
-    let b = new Boid(width / 2,height / 2);
-    flock.addBoid(b);
-  }
-}
-
-function draw() {
-  background(51);
-  flock.run();
-}
-
-// Add a new boid into the System
-function mouseDragged() {
-  flock.addBoid(new Boid(mouseX, mouseY));
-}
-
-// The Nature of Code
-// Daniel Shiffman
-// http://natureofcode.com
-
-// Flock object
-// Does very little, simply manages the array of all the boids
-
-
-
-// The Nature of Code
-// Daniel Shiffman
-// http://natureofcode.com
-
-// Boid class
-// Methods for Separation, Cohesion, Alignment added
-
-function Boid(x, y) {
-  this.acceleration = createVector(0, 0);
-  this.velocity = createVector(random(-1, 1), random(-1, 1));
-  this.position = createVector(x, y);
-  this.r = 3.0;
-  this.maxspeed = 3;    // Maximum speed
-  this.maxforce = 0.05; // Maximum steering force
-}
-
-
-
-
-// Method to update location
-Boid.prototype.update = function() {
-  // Update velocity
-  this.velocity.add(this.acceleration);
-  // Limit speed
-  this.velocity.limit(this.maxspeed);
-  this.position.add(this.velocity);
-  // Reset accelertion to 0 each cycle
-  this.acceleration.mult(0);
-}
-
-
-Boid.prototype.render = function() {
-  // Draw a triangle rotated in the direction of velocity
-  let theta = this.velocity.heading() + radians(90);
-  fill(127);
-  stroke(200);
-  push();
-  translate(this.position.x, this.position.y);
-  rotate(theta);
-  beginShape();
-  vertex(0, -this.r * 2);
-  vertex(-this.r, this.r * 2);
-  vertex(this.r, this.r * 2);
-  endShape(CLOSE);
-  pop();
-}
-
-// Wraparound
-Boid.prototype.borders = function() {
-  if (this.position.x < -this.r)  this.position.x = width + this.r;
-  if (this.position.y < -this.r)  this.position.y = height + this.r;
-  if (this.position.x > width + this.r) this.position.x = -this.r;
-  if (this.position.y > height + this.r) this.position.y = -this.r;
-}
-
-
-
-
-
-
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-// ============================
-// ============================
-// ============================
-// ============================
-// ============================
-// ============================
-
-
-
-
-
 
 
 
@@ -485,9 +366,6 @@ Boid.prototype.run = function(boids) {
   this.borders();
   this.render();
 }
-
-
-
 
 // A method that calculates and applies a steering force towards a target
 // STEER = DESIRED MINUS VELOCITY
