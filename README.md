@@ -34,3 +34,12 @@ person getting a postcard submits code to (this) shared github repository
 ### timeout
 
 if a postcard is not received within 1 month, we consider it lost. the postcard's content is then sent digitally to the other party.
+
+### Card 1
+
+TODO When was the card sent?
+
+Greg received Ariel's card on October 23rd 2019
+
+Work will be ongoing in the `card1` directory
+
