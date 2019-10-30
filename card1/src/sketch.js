@@ -169,7 +169,6 @@ let curr_wind;
 let wind_thresh;
 
 function setup() {
-  userStartAudio();
   createCanvas(500, 500);
   flock = new Flock();
   for (let i = 0; i < 50; i++) {
@@ -179,6 +178,7 @@ function setup() {
   ariel = new Boid(random(width), random(height));
   input = new p5.AudioIn();
   input.start();
+  userStartAudio();
   prev_wind = false;
   wind_thresh = 0.05;
 }
@@ -216,7 +216,7 @@ function Boid(x, y) {
   this.position = createVector(x, y);
   this.direction = random(360);
   this.speed = random(0.5, 1.5);
-  this.f = 6.0;
+  this.r = 6.0;
   this.maxspeed = 3;
   this.maxforce = 0.05;
   this.angs = [];
@@ -328,7 +328,7 @@ Boid.prototype.render = function() {
 Boid.prototype.borders = function() {
   let out = false;
   if (this.position.x < -this.r) {
-    position.x = width + this.r;
+    this.position.x = width + this.r;
     out = true;
   }
   if (this.position.y < -this.r) {
