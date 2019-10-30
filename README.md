@@ -37,9 +37,11 @@ if a postcard is not received within 1 month, we consider it lost. the postcard'
 
 ### Card 1
 
-TODO When was the card sent?
+Ariel sent the first card on September 23rd 2019, answering the question *How often do you feel that you have a lot in common with the people around you?*
 
 Greg received Ariel's card on October 23rd 2019
+
+Greg re-assembled the code on October 30th 2019
 
 Work will be ongoing in the `card1` directory
 
