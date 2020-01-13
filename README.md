@@ -45,3 +45,7 @@ Greg re-assembled the code on October 30th 2019
 
 Work will be ongoing in the `card1` directory
 
+### Card 2
+
+Greg sent the card on January 13th 2020
+
