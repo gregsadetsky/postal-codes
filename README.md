@@ -49,3 +49,5 @@ Work will be ongoing in the `card1` directory
 
 Greg sent the card on January 13th 2020
 
+Greg sent backup of card by mail on January 20th 2020
+
