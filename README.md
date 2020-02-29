@@ -35,7 +35,7 @@ person getting a postcard submits code to (this) shared github repository
 
 if a postcard is not received within 1 month, we consider it lost. the postcard's content is then sent digitally to the other party.
 
-### Card 1
+### card 1
 
 Ariel sent the first card on September 23rd 2019, answering the question *How often do you feel that you have a lot in common with the people around you?*
 
@@ -43,11 +43,25 @@ Greg received Ariel's card on October 23rd 2019
 
 Greg re-assembled the code on October 30th 2019
 
-Work will be ongoing in the `card1` directory
+work will be ongoing in the `card1` directory
 
-### Card 2
+### card 2
 
-Greg sent the card on January 13th 2020
+Greg sent the card on January 13th 2020, answering the question *How do you feel about sharing deep worries with people?*
 
 Greg sent backup of card by mail on January 20th 2020
+
+Ariel received the card and backup together on February 21st 2020
+
+Ariel re-assembled the code on February 22nd 2020
+
+work will be ongoing in the `card2` directory
+
+### rules change
+
+we decided to change the amount of time to answer a card from 1 week to 1 month, starting with card #3, in order to acommodate more complex processes/answers
+
+
+
+
 
