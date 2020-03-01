@@ -1,4 +1,4 @@
-# postal-codes
+  # postal-codes
 
 ## documentation / notes on how we did it
 
@@ -37,7 +37,7 @@ if a postcard is not received within 1 month, we consider it lost. the postcard'
 
 ### card 1
 
-Ariel sent the first card on September 23rd 2019, answering the question *How often do you feel that you have a lot in common with the people around you?*
+Question 1, *How often do you feel that you have a lot in common with the people around you?*, was asked over email by Greg on September 11th, 2019. Ariel sent the first card on September 23rd 2019, answering the question.
 
 Greg received Ariel's card on October 23rd 2019
 
