@@ -67,4 +67,4 @@ TODO when did this new rule come into effect? Somewhere after Feb 22nd 2020, but
 
 Ariel and Greg agreed on March 22nd 2020 to stop sending cards by mail considering everything. They will instead send each other a sketch throughout the week, working on it a few minutes per day, one of them working on the sketch on Monday, the other working on Tuesday, etc. on one common topic
 
-On March 22nd 2020 Greg proposed the next topic for this new format: "What do we owe others?"
+On March 23rd, Ariel and Greg agreed this new project would be called Invocations and the first topic would be Hope. The code for this [lives here](https://github.com/gregsadetsky/invocations).
