@@ -24,7 +24,8 @@ person who wins answers the question
 random.org decided that Greg asks the 1st question
 
 Greg got 24 hour to ask the first question
-greg will get 1 week after getting the first postcard to reply
+Ariel will get 1 week to create first postcard
+Greg will get 1 week after getting the first postcard to reply
 
 when getting the postcard
 posting to instagram and tagging the other person
@@ -57,11 +58,13 @@ Ariel re-assembled the code on February 22nd 2020
 
 work will be ongoing in the `card2` directory
 
+### card 3
+
+Ariel received the following question from greg on the 22nd of March 2020: *What do we owe others?*. Ariel has one month to produce a postcard. If postal mail isn't available, we will wait.
+
 ### rules change
 
-we decided to change the amount of time to answer a card from 1 week to 1 month, starting with card #3, in order to acommodate more complex processes/answers
-
-TODO when did this new rule come into effect? Somewhere after Feb 22nd 2020, but when?
+On feb 22nd 202 we decided to change the amount of time to answer a card from 1 week to 1 month, starting with card #3, in order to acommodate more complex processes/answers
 
 ### Corona-related change
 
